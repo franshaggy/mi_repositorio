@@ -1,0 +1,92 @@
+
+/* IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* VARIABLES*/
+
+:root {
+
+    --primary: #FFD2FC;
+    --secondary: #E980FC;
+    --light: #B96AC9;
+    --accent: #231B1B;
+
+    /* Font Sizes*/
+    --text-xxl: 5.0em;
+    --text-xl: 3.6em;
+    --text-lg: 3.2em;
+    --text-md: 2.2em;
+    --text-sm: 1.6em;
+    --text-mm: 1.2em;
+
+}
+
+
+
+/* NORMALIZE*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 62,5%;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: var(--text-sm);
+}
+
+ul {
+list-style-type: none;
+}
+
+a {
+    font-size: var(--text-mm);
+    color: #231B1B;
+}
+
+header {
+    background-color: var(--primary);
+    padding: 16px;
+
+}
+
+.navbar .navbar__link {
+    display: inline-block;
+}
+
+
+.navbar .menu {
+    display: inline-block;
+}
+
+.navbar .menu .menu__item {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #FFD2FC;
+}
+
+.footer__item{
+    color: #231B1B;
+}
+
+.seccion {
+    display: inline-block;
+}
+
+.seccion  .seccion__img {
+    display: inline-block;
+}
